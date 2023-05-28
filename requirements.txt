@@ -3,4 +3,3 @@ Werkzeug
 sqlalchemy
 flask_login
 flask_sqlalchemy
-pysqlite
