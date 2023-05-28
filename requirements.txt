@@ -2,5 +2,5 @@ Flask==0.11.1
 Werkzeug==0.11.15
 sqlalchemy==2.0.6
 flask_login==0.6.2
-functools==3.9
+functools==0.5
 flask_sqlalchemy==3.0.3
