@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock%}
+
+{% block content%}
+<body background="{{ url_for('static', filename='gallery_bg.png') }}">
+    <main>
+        <div id="mission" class="about-container">
+            <div class="about-container-header">
+                <h1>Our Mission</h1>
+            </div>
+            <div class="about-content-container">
+                <div class="inner-content-container">
+                    <p class="text">Jamaica Youth Vision is a passion project aimed at fighting social problems in Jamaica. Social equity is very important to our team, and we believe that the best way to make an impact is to first target the future of our country, the youth. Children’s homes around the island are doing their best with the resources they are provided with from the government and we aim to make it easier and more accessible to gain public funding. We hope to encourage more outreach projects to the youth by providing a resource which simplifies the process of planning and executing service projects.</p>
+                </div>
+            </div>
+        </div>
+        <div id="team" class="about-container">
+            <div class="about-container-header">
+                <h1>Meet the Team</h1>
+            </div>
+            <div class="about-content-container" id="team-container">
+                <div class="team-row">
+                    <div class="team-member">
+                        <div class="team-image team">
+                            <img src="" alt="">
+                        </div>
+                        <div class="team-position team">
+                            <h6>Amanda Rodriques</h6>
+                            <h6>Co-Founder and Full Stack Engineer</h6>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-image team">
+                            <img src="" alt="">
+                        </div>
+                        <div class="team-position team">
+                            <h6>James Karram</h6>
+                            <h6>Co-Founder and Frontend Engineer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-row">
+                    <div class="team-member">
+                        <div class="team-image team">
+                            <img src="" alt="">
+                        </div>
+                        <div class="team-position team">
+                            <h6>Josh Morris</h6>
+                            <h6>Co-Founder and Backend Engineer</h6>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-image team">
+                            <img src="" alt="">
+                        </div>
+                        <div class="team-position team">
+                            <h6>Matthew Grant</h6>
+                            <h6>Co-Founder and Manager</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+{% endblock %}
