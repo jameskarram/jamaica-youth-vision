@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.5
 from website import create_app
 
 app = create_app()
