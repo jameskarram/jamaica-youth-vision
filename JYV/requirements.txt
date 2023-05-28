@@ -1,9 +1,0 @@
-Flask==0.11.1
-Werkzeug==0.11.15
-smtplib==8.8.4
-sqlite3==3.41.1
-email==3.6
-sqlalchemy==2.0.6
-flask_login==0.7.0
-functools==3.9
-flask_sqlalchemy==3.0.3
